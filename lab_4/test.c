@@ -19,6 +19,9 @@ int main(int argc, char **argv)
     if (!initBuffer(20, 8, &buf))
     {
         perror("Buffer Initialization Failed!\n");
+        printf("Hello World!");
+        printf("Hello World!-Second");
+        printf("Hello World!-Third");
         return -1;
     }
 
